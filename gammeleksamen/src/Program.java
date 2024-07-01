@@ -15,7 +15,7 @@ public class Program {
         readFromFile.readFromFile("equipment.txt", equipmentList);
         Class.forName("com.mysql.cj.jdbc.Driver");
         con = DriverManager
-                .getConnection("jdbc:mysql://localhost:3306/equip","root","tuttifrutti");
+                .getConnection("jdbc:mysql://localhost:3306/equip", removed");
     }
 
     public void showAllEquipment() {
